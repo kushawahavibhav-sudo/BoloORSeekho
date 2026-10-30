@@ -770,6 +770,23 @@ html[data-mode=dark] .ind{background:linear-gradient(100deg,#2b6a86,#4b3a9a 60%,
 #cp div{width:min(520px,92vw);background:var(--bg);border-radius:22px;border:1px solid var(--line);box-shadow:0 30px 80px -20px #000a;overflow:hidden}
 #cp input{width:100%;border:0;padding:20px 22px;font:600 1.1rem Figtree;background:transparent;color:var(--text);outline:0;border-bottom:1px solid var(--line)}
 #cp button{display:block;width:100%;text-align:left;border:0;background:none;padding:14px 22px;font:600 1rem Figtree;color:var(--text);cursor:pointer}#cp button.s,#cp button:hover{background:rgba(111,69,240,.14)}
+/* dark mode: Seekho + all white boxes */
+html[data-mode=dark] .card{background:linear-gradient(160deg,rgba(34,30,74,.96),color-mix(in srgb,var(--tint) 16%,#17143a));color:var(--text);box-shadow:0 18px 40px -24px #000}
+html[data-mode=dark] .card .e,html[data-mode=dark] .we,html[data-mode=dark] .fab,html[data-mode=dark] .bubbles span{background:#2a2560;color:var(--text);box-shadow:0 10px 22px -10px #000}
+html[data-mode=dark] .bubbles span{color:var(--c)}
+html[data-mode=dark] ol.lb li,html[data-mode=dark] .steps li,html[data-mode=dark] .hl,html[data-mode=dark] .cr,html[data-mode=dark] .qtop span,html[data-mode=dark] .stats div,html[data-mode=dark] .bgp,html[data-mode=dark] .credit,html[data-mode=dark] #toast{background:rgba(32,28,70,.92);color:var(--text);box-shadow:0 14px 30px -20px #000}
+html[data-mode=dark] #toast{background:#efecff;color:#17143a}
+html[data-mode=dark] input,html[data-mode=dark] textarea,html[data-mode=dark] select{background:#1b1740;color:var(--text);border-color:var(--line)}
+html[data-mode=dark] input::placeholder,html[data-mode=dark] textarea::placeholder{color:var(--muted)}
+html[data-mode=dark] select option{background:#1b1740;color:var(--text)}
+html[data-mode=dark] .ring{background:conic-gradient(var(--violet) calc(var(--p)*1%),#2d2760 0)}
+html[data-mode=dark] .ring b{background:#1b1740;color:var(--text)}
+html[data-mode=dark] .hud button{background:linear-gradient(100deg,#2b6a86,#5a43b8);color:#fff}
+html[data-mode=dark] .bdg div{background:rgba(160,123,255,.16)}
+html[data-mode=dark] .opt.good{background:#124d3a;border-color:var(--ok)}
+html[data-mode=dark] .opt.bad{background:#59202f;border-color:var(--bad)}
+html[data-mode=dark] .chip[aria-pressed="true"]{background:linear-gradient(100deg,#34d4ff,#a07bff);color:#14104a}
+html[data-mode=dark] .hl.hit{background:#124d3a}
 @media(max-width:700px){.hud{grid-template-columns:auto 1fr;}.hud .hs{display:none}}
 </style><script>
 (()=>{
